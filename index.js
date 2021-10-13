@@ -4,7 +4,6 @@ console.log(fifaData);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Practice accessing data by console.log-ing the following pieces of data note, you may want to filter the data first 😉*/
-<<<<<<< HEAD
 let catalog = fifaData.filter(function(year){
     return year.Year === 2014 && year.Stage === "Final"
 })
@@ -13,9 +12,6 @@ function teamInfo(year){
 }
 let final = catalog.map(teamInfo);
 console.log(catalog);
-=======
-
->>>>>>> 5e04323167956000e81e99fe404a45bfb71c8948
 //(a) Home Team name for 2014 world cup final
 
 //(b) Away Team name for 2014 world cup final
