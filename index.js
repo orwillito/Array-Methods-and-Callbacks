@@ -48,7 +48,8 @@ console.log(getFinals(fifaData));
 Use the higher-order function called getYears to do the following: 
 1. Receive an array
 2. Receive a callback function getFinals from task 2 
-3. Return an array called years containing all of the years in the getFinals data set*/
+3. Return an array called years containing all of the years in the getFinals data set
+new array quick brown fox*/
 
 function getYears(array,func) {
 
