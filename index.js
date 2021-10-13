@@ -4,6 +4,7 @@ console.log(fifaData);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Practice accessing data by console.log-ing the following pieces of data note, you may want to filter the data first 😉*/
+<<<<<<< HEAD
 let catalog = fifaData.filter(function(year){
     return year.Year === 2014 && year.Stage === "Final"
 })
@@ -12,6 +13,9 @@ function teamInfo(year){
 }
 let final = catalog.map(teamInfo);
 console.log(catalog);
+=======
+
+>>>>>>> 5e04323167956000e81e99fe404a45bfb71c8948
 //(a) Home Team name for 2014 world cup final
 
 //(b) Away Team name for 2014 world cup final
@@ -90,9 +94,10 @@ console.log(getWinners(fifaData, getFinals));
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use the higher-order function getWinnersByYear to do the following:
 1. Receive an array
-2. Receive a callback function getYears from task 3
-3. Receive a callback function getWinners from task 4
-4. Return an array of strings that say "In {year}, {country} won the world cup!" 
+2. Receive a callback function getFinals from task 2
+3. Receive a callback function getYears from task 3
+4. Receive a callback function getWinners from task 4
+5. Return an array of strings that say "In {year}, {country} won the world cup!" 
 
 hint: the strings returned need to exactly match the string in step 4.
  */
